@@ -1,6 +1,9 @@
 # Local development environment for python data projects, with Docker
 
-Code for the post: [Setting up local dev environment with Docker](https://www.startdataengineering.com/post/local-dev/)
+A simple ETL project that fetches 10 records and loads them into a postgres database representing our data warehouse.
+
+The Purpose of this simple project is to help on setting up a local development environment for future data projects using Docker.
+
 
 ## Pre-requisite
 
@@ -19,5 +22,3 @@ make ci # run tests and format code
 make run-etl # run the ETL process
 make down # spins down the containers
 ```
-
-For more details, please read the post: [Setting up local dev environment with Docker](https://www.startdataengineering.com/post/local-dev/).
